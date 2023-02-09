@@ -1,3 +1,58 @@
 .home{
-    height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    align-items: center;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title p{
+    font-size: 48px;
+}
+
+.subtitle{
+    position: relative;
+    font-size: 16px;
+    color: #666666;
+    width: 35%;
+    text-align: center;
+
+}
+
+.summary{
+    margin-top: 70px;
+    align-items: center;
+    width: 300px;
+
+}
+
+.summary-title{
+    text-align: center;
+    font-size: 36px;
+    line-height: 45px;
+
+}
+
+.total{
+    background-color: #F9F9F9;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-bottom: 30px;
+
+}
+
+.total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
